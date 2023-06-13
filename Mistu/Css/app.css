@@ -1,0 +1,79 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SFU Futura',sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+    min-height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 70px;
+    align-items: center;
+
+}
+
+    
+ 
+
+.logo{
+    flex: 1;
+    display: flex;
+    padding: 0px 0px;
+}
+
+
+.menu{
+    flex: 3;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 15px ;
+    vertical-align: baseline;
+    justify-content: space-between;
+    align-items: center ;
+    z-index: 1;
+    font-weight:100px ;
+    margin-left: 10px;
+}
+.menu>li{
+    padding: 0px 50px;
+    
+}
+.others{
+    flex: 1;
+    display: flex;
+    font-size: 12px;
+}
+.others>li{
+    padding: 10px 20px;
+}
+.others>li:first-child {
+    position: relative;
+
+}
+
+
+.others>li:first-child input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+
+}
+.others>li:first-child i{
+    position: absolute;
+    right:10px
+}
